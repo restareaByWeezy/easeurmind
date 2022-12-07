@@ -6,6 +6,10 @@ const Text = styled('span', {
       primary: { color: '$primary_text' },
       secondary: { color: '$secondary_text' },
       tertiary: { color: '$tertiary_text' },
+      orange: { color: '$orange' },
+      red: { color: '$red' },
+      blue: { color: '$blue' },
+      green: { color: '$green' },
       white: { color: '$white' },
     },
     size: {

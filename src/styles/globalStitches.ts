@@ -5,9 +5,15 @@ export const { getCssText } = createStitches()
 export const { styled, css } = createStitches({
   theme: {
     colors: {
-      primary: '#FF4800',
+      primary: '#0B0A07',
 
-      background: '#f7f8f9',
+      background: '#F4E6D9',
+      almond: '#F4E6D9',
+      red: '#F04848',
+      orange: '#f09018',
+      yellow: '#f2ca00',
+      blue: '#18a8f0',
+      green: '#21af5c',
 
       // GrayScale
       GRAY9: '#0a0a0a',
@@ -36,13 +42,13 @@ export const { styled, css } = createStitches({
       GTRANS1: 'rgba(176, 179, 188, 0.1)',
 
       // TextColor
-      primary_text: '#1b1d1f', //Gray 8
+      primary_text: '#0B0A07', //Gray 8
       secondary_text: '#464c53', //Gray 6
       tertiary_text: '#9ea4aa', //Gray 4
       white: '#ffffff',
 
       // btn
-      primary_btn: '#FF4800',
+      primary_btn: '#0B0A07',
       primary_pressed: '#3078CA',
       secondary_btn: '#464C53',
       secondary_pressed: '#26282B',

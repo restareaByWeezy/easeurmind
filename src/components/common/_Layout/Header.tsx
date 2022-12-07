@@ -1,7 +1,9 @@
-import { styled } from 'styles/globalStitches'
 import Logo from 'assets/svg/logo.svg'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { styled } from 'styles/globalStitches'
+
+import Text from '../Text'
 
 const Header = () => {
   const router = useRouter()
@@ -13,11 +15,14 @@ const Header = () => {
   return (
     <CustomHeader>
       <Navbar>
-        <button onClick={handleClick}>
+        <LogoButton onClick={handleClick}>
           <Logo />
-        </button>
-        <Link href="/cart">CART</Link>
-        <Link href="/products">PRODUCTS</Link>
+        </LogoButton>
+        <Text size="h2" weight="bold" color="orange">
+          EaseEaseEase
+        </Text>
+        <Link href="/">Main</Link>
+        <Link href="/blog">Blog</Link>
       </Navbar>
     </CustomHeader>
   )
@@ -47,4 +52,9 @@ const Navbar = styled('nav', {
       color: '$primary',
     },
   },
+})
+
+const LogoButton = styled('button', {
+  display: 'flex',
+  alignItems: 'center',
 })

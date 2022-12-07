@@ -1,7 +1,7 @@
 import { styled } from 'styles/globalStitches'
 
 const HomePageContent = () => {
-  return <Wrapper></Wrapper>
+  return <Wrapper>123</Wrapper>
 }
 
 export default HomePageContent
